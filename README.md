@@ -2,4 +2,4 @@
 This is the repository for ICT2201/INF2001, Group 46
 
 # Flow Chart
-![alt text]([http://url/to/img.png](https://drive.google.com/file/d/1v_Il9tBpW4Z8oWUx_k8Vi7YmvVHMB_BN/view?usp=sharing)https://drive.google.com/file/d/1v_Il9tBpW4Z8oWUx_k8Vi7YmvVHMB_BN/view?usp=sharing)
+![FlowChart](https://github.com/mechproz/INF2004/assets/121922214/b45de29b-0984-43a2-8fff-958d489702ae)
