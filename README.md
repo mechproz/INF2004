@@ -31,7 +31,6 @@ Currently this project supports a TCP scan and returns only open ports, however 
 
 # How to run the program:
 - Clone the github repository to Pico Vscode.
-- edit the
 - The repository also includes individual drivers components as such Ethernet (scrapped), SD card, and web server. This facilitates a clear dive into each individual component if necessary. 
 - The nmap-lite folder contains the completed program. Compile and run the files. Upon successful compilation, a uf2 file will be created. Copy the uf2 file into your Raspberry Pi.
 - **Ensure that WIFI_SSID and WIFI_PASSWORD are correct before compiling!**
