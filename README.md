@@ -32,7 +32,7 @@ How to run the program:
 - edit the
 - The repository also includes individual drivers components as such Ethernet (scrapped), SD card, and web server. This facilitates a clear dive into each individual component if necessary. 
 - The nmap-lite folder contains the completed program. Compile and run the files. Upon successful compilation, a uf2 file will be created. Copy the uf2 file into your Raspberry Pi.
-- * Ensure that WIFI_SSID and WIFI_PASSWORD are correct before compiling! *
+- **Ensure that WIFI_SSID and WIFI_PASSWORD are correct before compiling!**
 - Run program, wifi will be initialized and webserver will be run on the IP allocated to the pico.
 - Navigate to the webserver using your ip, then input the desired values into the input fields.
 - Scanning will begin and results will be sent to the console and sd card.
