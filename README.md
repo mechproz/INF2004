@@ -1,22 +1,24 @@
 # INF2004
 This is the repository for ICT2201/INF2001, Group 46
 
-Brief Introduction/description:
+# Brief Introduction/description:
 - This project seeks to implement a lightweight nmap scan utility hosted on the raspberry Pico W. It offers 2 main advantages
 
 - Plug and Play: With our nmap lite, it only requires 2 steps, connect to our device to your Wifi, and type in a IP address in our website and we will scan for you the TCP ports and let you know about what ports are open!
 
 - Portable - comparing to actual port scanners, you would require some form of operating systems to run those port scanning services. Our solution only requires a Raspberry Pico W and a USB cable to power it
 
-Project Objective:
+# Project Objective:
 - The main objective is to serve as a helper for network penetration testers or network administrators to have a portable version of nmap, revealing open ports when scanning a given device's IP address and port range.
 Currently this project supports a TCP scan and returns only open ports, however it could potentially be expanded to detect closed or filtered ports, and perhaps even version detection of services hosted on open ports.
 
+# Flow Chart
+![FlowChart](https://github.com/mechproz/INF2004/assets/121922214/1619dbeb-5bac-41e3-bd0f-ee0ec8c99851)
 
+# Block Diagram
+![BlockDiagram](https://github.com/mechproz/INF2004/assets/121922214/ecf3556b-ee19-4fbe-8826-b6488fb7b348)
 
-
-
-Requirements to run: 
+# Requirements to run: 
 - Raspberry Pi
 - Maker Pico 
 - USB cable
@@ -27,7 +29,7 @@ Requirements to run:
 - FatFS_SPI
 
 
-How to run the program:
+# How to run the program:
 - Clone the github repository to Pico Vscode.
 - edit the
 - The repository also includes individual drivers components as such Ethernet (scrapped), SD card, and web server. This facilitates a clear dive into each individual component if necessary. 
@@ -37,7 +39,7 @@ How to run the program:
 - Navigate to the webserver using your ip, then input the desired values into the input fields.
 - Scanning will begin and results will be sent to the console and sd card.
 
-Task Allocation:
+# Task Allocation:
 Member 1: Ong Jun Heng, James (Leader)
 Task:
 1. Overall project coordination and management.
@@ -65,12 +67,6 @@ Task:
 1. Set up the web server in Pico W
 2. Set up the Wifi component to allow the client to connect to the web server via WiFi
 
-Future Implementations: 
+# Future Implementations: 
 - To display scanning results on webpage successfully 
 - Add outcomes of closed and filtered port
-
-# Flow Chart
-![FlowChart](https://github.com/mechproz/INF2004/assets/121922214/1619dbeb-5bac-41e3-bd0f-ee0ec8c99851)
-
-# Block Diagram
-![BlockDiagram](https://github.com/mechproz/INF2004/assets/121922214/ecf3556b-ee19-4fbe-8826-b6488fb7b348)
