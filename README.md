@@ -2,15 +2,14 @@
 This is the repository for ICT2201/INF2001, Group 46
 
 Brief Introduction/description:
-This project seeks to implement a lightweight nmap scan utility hosted on the raspberry Pico W. It offers 2 main advantages
+-This project seeks to implement a lightweight nmap scan utility hosted on the raspberry Pico W. It offers 2 main advantages
 
-Plug and Play: With our nmap lite, it only requires 2 steps, connect to our device to your Wifi, and type in a IP address in our website and we will scan for you the TCP ports and let you know about what ports are open!
+-Plug and Play: With our nmap lite, it only requires 2 steps, connect to our device to your Wifi, and type in a IP address in our website and we will scan for you the TCP ports and let you know about what ports are open!
 
-Portable - comparing to actual port scanners, you would require some form of operating systems to run those port scanning services. Our solution only requires a Raspberry Pico W and a USB cable to power it
+-Portable - comparing to actual port scanners, you would require some form of operating systems to run those port scanning services. Our solution only requires a Raspberry Pico W and a USB cable to power it
 
 Project Objective:
-The main objective is to serve as a helper for network penetration testers or network administrators to have a portable version of nmap, revealing open ports when scanning a given device's IP address and port range.
-
+-The main objective is to serve as a helper for network penetration testers or network administrators to have a portable version of nmap, revealing open ports when scanning a given device's IP address and port range.
 Currently this project supports a TCP scan and returns only open ports, however it could potentially be expanded to detect closed or filtered ports, and perhaps even version detection of services hosted on open ports.
 
 
@@ -18,14 +17,14 @@ Currently this project supports a TCP scan and returns only open ports, however 
 
 
 Requirements to run: 
-Raspberry Pi
-Maker Pico 
-USB cable
-SD card
-SD card reader 
-FreeRTOS
-LWIP
-FatFS_SPI
+-Raspberry Pi
+-Maker Pico 
+-USB cable
+-SD card
+-SD card reader 
+-FreeRTOS
+-LWIP
+-FatFS_SPI
 
 
 How to run the program:
